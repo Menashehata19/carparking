@@ -4,25 +4,403 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="style.css">
-  <title>MENA</title>
+  <title>Gta Vice City</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
   
+<div class="back">
+  
+  <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg id="svgback" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM13.92 16.13H9C8.59 16.13 8.25 15.79 8.25 15.38C8.25 14.97 8.59 14.63 9 14.63H13.92C15.2 14.63 16.25 13.59 16.25 12.3C16.25 11.01 15.21 9.97 13.92 9.97H8.85L9.11 10.23C9.4 10.53 9.4 11 9.1 11.3C8.95 11.45 8.76 11.52 8.57 11.52C8.38 11.52 8.19 11.45 8.04 11.3L6.47 9.72C6.18 9.43 6.18 8.95 6.47 8.66L8.04 7.09C8.33 6.8 8.81 6.8 9.1 7.09C9.39 7.38 9.39 7.86 9.1 8.15L8.77 8.48H13.92C16.03 8.48 17.75 10.2 17.75 12.31C17.75 14.42 16.03 16.13 13.92 16.13Z" fill="white"/>
+</svg>
+  
+</div>
 
-<p></p>
+<!-- back to website -->
+  
+  <div class="flextext">
+    
+  <div class="textdiv">
+    
+  <h3 class="logo">download Game</h3>
+  
+  </div>
   
   
   
+  </div>
+
+  <div class="icon">
+    
+    <img srcset="" src="https://game30.netlify.app/Car-Parking-Multiplayer-%D9%85%D9%87%D9%83%D8%B1%D8%A9-icon-apkbaba.webp" alt="icon mine craft">
+    
+  </div>
   
+  
+  <div class="text">
+    
+    <div>
+      <p class="textplay">Car Parking</p>
+    </div>
+    
+  </div>
+
+
+
+
+
+
+
+<table class="styled-table">
+  
+  
+  
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Gta Vice City</th>
+        </tr>
+    </thead>
+    
+    
+    <tbody>
+        <tr>
+            <td>Size</td>
+            <td>1000 MB</td>
+        </tr>
+        <tr class="active-row">
+            <td>Version</td>
+            <td>Finsh Vr
+            ersion</td>
+        </tr>
+        <!-- and so on... -->
+    </tbody>
+    
+
+    
+            <tr>
+            <td>Mod</td>
+            <td>Download Free</td>
+        </tr>
+</table>
+
+
+
+<div class="w3-content" style="max-width:800px">
+  
+  <img class="mySlides" src="https://image.winudf.com/v2/image1/Y29tLm9semhhcy5jYXJwYXJraW5nLm11bHR5cGxheWVyX2Jhbm5lcl8xNjUyMDE4MDU1XzAyMA/banner.jpg?fakeurl=1&w=600" style="width:100%">
+  
+  
+  <img class="mySlides" src="https://play-lh.googleusercontent.com/Ip_LzDVSk0AuWeJqJJC6qmcH9jl31FIdfsvl3AcG-lxJNu0R0nqyhTZF1-9izOvEdQ=w526-h296-rw" style="width:100%">
+  <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwTUD_GJOgrbZspAQ4pmTbH8EJxP4nzCuwuI0NZkQ7ApdGu4pk0yLRNhhD3Nq656G0wzY&usqp=CAU" style="width:100%">
+</div>
+
+<div class="w3-center">
+  <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+  </div>
+  <button class="w3-button demo" onc>1</button> 
+  <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+  <button class="w3-button demo" onclick="currentDiv(3)">3</button> 
+</div>
+
 <script>
-  let url = location.pathname="mena/mena";
+var slideIndex = 1;
+showDivs(slideIndex);
 
-let p = document.querySelector('p');
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
 
-p.innerHTML=url;
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-red", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-red";
+}
+</script>
 
 
+
+
+<p class="maqlq">
+  
+
+"Minecraft: استكشاف الإبداع والمغامرة في عالم مفتوح"
+
+"ماين كرافت" أو "Minecraft"، هي واحدة من أشهر ألعاب الفيديو في العالم، التي اكتسبت شعبية هائلة منذ إصدارها الأول في عام 2011. تميزت اللعبة بتصميمها الفريد والبساطة في الأسلوب، مما جعلها تحظى بشعبية كبيرة بين مختلف فئات اللاعبين، بدءًا من الأطفال وصولاً إلى البالغين.
+
+تتميز "ماين كرافت" بعالم مفتوح غامض وشاسع يمتد إلى ما لا نهاية، حيث يمكن للاعبين استكشاف المناظر الطبيعية المتنوعة، وبناء المنازل والمباني باستخدام الكتل المختلفة، والتعامل مع مخاطر العالم مثل الوحوش والمخلوقات الأخرى.
+
+إحدى السمات البارزة لـ "ماين كرافت" هي قدرتها على إبراز الإبداع والتفكير الخلاق، حيث يمكن للاعبين بناء أي شيء يتخيلونه، من بساطة منازل صغيرة إلى مدن ضخمة ومعالم ثقافية شهيرة. يُعَدُّ الإبداع واحدا من أبرز مكونات تجربة اللعب في "ماين كرافت"، حيث يتيح للأشخاص التعبير عن أنفسهم بطرق مختلفة وخلق عوالم تتناسب مع خيالهم.
+
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="display: flex; justify-content: center; margin-top: 40px;">
+  
+  <button id="clickbtn" class="button">
+  <span class="button-content">Download </span></a>
+
+  
+</button>
+
+
+</div>
+
+
+
+<div class="contact">
+  
+  <div class="face">
+    
+    <img onclick="location.href='https://www.facebook.com/profile.php?id=100081772560341&mibextid=ZbWKwL'"  class="iconsocial" srcset="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMNEHYAYZ2SCOgcjzZ10vlGzoeDPkMPLwZJ4zkrbUA1oGqmAayt6mDLOkJQjDkfa5L68E&usqp=CAU" alt="">
+  
+  </div>
+  
+  
+  <div class="whatsapp">
+    
+  <img onclick="location.href='https://wa.me/+201270144885'" class="iconsocial"  src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" alt="">
+  </div>
+  
+  
+
+  
+  <div>
+    
+    
+    
+  </div>
+  
+  
+</div>
+
+
+
+
+<style>
+.mySlides{
+  border-radius: 10px;
+  height: 200px;
+  width: 90%;
+}
+mySlides {display:none}
+.contact{
+  display: flex;
+  justify-content: center;
+  background: #F3F3F3;
+  margin-top: 27px;
+  border-radius: 23px 23px 0px 0px;
+}
+.iconsocial{
+width: 50px;
+  margin: 60px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+  .maqlq{
+    color: #C9C9C9;
+    text-align: right;
+    margin-top: 30px;
+    font-weight: 600;
+  }
+  body{
+background: #131416;
+font-family: sans-serif;
+margin:0px;
+}
+#svgback{
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+img{
+  width: 180px;
+  border-radius: 39px;
+}
+.flextext{
+  display: flex;
+  justify-content: right;
+}
+.textdiv{
+  width: 50px;
+}
+.text{
+    margin-top: 23px;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  width: 90%;
+  position: relative;
+  left: 5%;
+}
+.textplay{
+  font-size: 23px;
+  text-align: center;
+  color: #F1F1F1D4 ;
+}
+
+
+
+
+  
+
+.logo{
+  position: absolute;
+  top: 9px;
+  color: white;
+  font-size: 24px;
+  margin-left: -133px;
+  color: #F1F1F1F2
+}
+
+
+.button {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #69CB5C;
+  box-shadow: 2px 3px 10px #69CB5C;
+ position: relative;
+ top: -13px;
+
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.button:hover{
+  box-shadow: 0px 0px 0px red;
+}
+
+.button:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+  transition: all 0.475s;
+}
+
+@media only screen and (min-width: 600px) {
+  
+
+
+
+
+
+}.styled-table {
+    border-collapse: collapse;
+    margin: 10px 0;
+    color: white;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 98%;
+    margin-left: 1%;
+    box-shadow: 0 0 10px rgba(255, 248, 248, 0.05);
+  
+}
+.styled-table thead tr {
+    background-color: #292C31;
+    color: #FFFFFF;
+    text-align: left;
+}
+.onetj{
+  background: red;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 0px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #3F4042;
+    color: white;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 0px solid #008C70;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #292C31;
+}
+
+  
+</style>
+
+
+
+
+<script>
+  let svg = document.getElementById('svgback');
+
+svg.addEventListener('click', function(){
+  window.location.href="https://gameplay7.netlify.app/"
+})
+let btn = document.getElementById('clickbtn');
+
+btn.addEventListener('click',function(){
+  window.location.href="https://downzen.com/android/car-parking-multiplayer/download/get/?u=https%3A//apps.downzen.com/dznapps/download/android/car-parking-multiplayer-4869-armeabi-v7a-downzen.com.apks%3FAWSAccessKeyId%3DZ3M9Sg08AVYpxbrmo0Oj%26Signature%3D%252B%252FPONCgP6s%252Bt9utfWe3mbhYS5kQ%253D%26Expires%3D1714471777"
+})
 
 </script>
 </body>
